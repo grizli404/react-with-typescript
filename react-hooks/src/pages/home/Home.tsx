@@ -35,6 +35,16 @@ export function Home() {
             UseMemo
           </Nav.Link>
         </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useCallback" as={NavLink}>
+            UseCallback
+          </Nav.Link>
+        </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useReducer" as={NavLink}>
+            UseReducer
+          </Nav.Link>
+        </li>
       </ul>
     </Nav>
   );
