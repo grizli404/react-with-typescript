@@ -45,6 +45,31 @@ export function Home() {
             UseReducer
           </Nav.Link>
         </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useTransition" as={NavLink}>
+            UseTransition
+          </Nav.Link>
+        </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useDefferedValue" as={NavLink}>
+            UseDefferedValue
+          </Nav.Link>
+        </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useLayoutEffect" as={NavLink}>
+            UseLayoutEffect
+          </Nav.Link>
+        </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useDebugValue" as={NavLink}>
+            UseDebugValue
+          </Nav.Link>
+        </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useImperativeHandle" as={NavLink}>
+            UseImperativeHandle
+          </Nav.Link>
+        </li>
       </ul>
     </Nav>
   );

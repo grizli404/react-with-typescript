@@ -3,11 +3,16 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home/Home";
 import { UseCallback } from "./pages/useCallback/UseCallback";
 import { UseContext } from "./pages/useContext/UseContext";
+import { UseDebugValue } from "./pages/useDebugValue/UseDebugValue";
+import { UseDeferredValue } from "./pages/useDeferredValue/UseDeferredValue";
 import { UseEffect } from "./pages/useEffect/UseEffect";
+import { UseImperativeHandle } from "./pages/useImperativeHandle/UseImperativeHandle";
+import { UseLayoutEffect } from "./pages/UseLayoutEffect/UseLayoutEffect";
 import { UseMemo } from "./pages/useMemo/UseMemo";
 import { UseReducer } from "./pages/useReducer/UseReducer";
 import { UseRef } from "./pages/useRef/UseRef";
 import { UseState } from "./pages/useState/UseState";
+import { UseTransition } from "./pages/useTransition/UseTransition";
 
 function App() {
   return (
@@ -22,6 +27,13 @@ function App() {
         <Route path="useMemo" element={<UseMemo />} />
         <Route path="useCallback" element={<UseCallback />} />
         <Route path="useReducer" element={<UseReducer />} />
+        <Route path="useCallback" element={<UseCallback />} />
+        <Route path="useTransition" element={<UseTransition />} />
+        <Route path="useCallback" element={<UseCallback />} />
+        <Route path="useDefferedValue" element={<UseDeferredValue />} />
+        <Route path="useLayoutEffect" element={<UseLayoutEffect />} />
+        <Route path="useDebugValue" element={<UseDebugValue />} />
+        <Route path="useImperativeHandle" element={<UseImperativeHandle />} />
       </Routes>
     </Container>
   );
