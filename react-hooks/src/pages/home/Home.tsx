@@ -70,6 +70,11 @@ export function Home() {
             UseImperativeHandle
           </Nav.Link>
         </li>
+        <li className="list-group-item">
+          <Nav.Link to="/useId" as={NavLink}>
+            UseId
+          </Nav.Link>
+        </li>
       </ul>
     </Nav>
   );

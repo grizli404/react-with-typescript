@@ -6,6 +6,7 @@ import { UseContext } from "./pages/useContext/UseContext";
 import { UseDebugValue } from "./pages/useDebugValue/UseDebugValue";
 import { UseDeferredValue } from "./pages/useDeferredValue/UseDeferredValue";
 import { UseEffect } from "./pages/useEffect/UseEffect";
+import { UseId } from "./pages/useId/UseId";
 import { UseImperativeHandle } from "./pages/useImperativeHandle/UseImperativeHandle";
 import { UseLayoutEffect } from "./pages/UseLayoutEffect/UseLayoutEffect";
 import { UseMemo } from "./pages/useMemo/UseMemo";
@@ -34,6 +35,7 @@ function App() {
         <Route path="useLayoutEffect" element={<UseLayoutEffect />} />
         <Route path="useDebugValue" element={<UseDebugValue />} />
         <Route path="useImperativeHandle" element={<UseImperativeHandle />} />
+        <Route path="useId" element={<UseId />} />
       </Routes>
     </Container>
   );
